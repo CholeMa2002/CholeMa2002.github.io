@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>mzy的个人博客</title>
   
-  <subtitle>每天bug少一点点</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <subtitle>每天  bug少一点</subtitle>
+  <link href="https://cholema.what/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2022-10-16T07:20:59.191Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://cholema.what/"/>
+  <updated>2024-07-20T14:03:12.147Z</updated>
+  <id>https://cholema.what/</id>
   
   <author>
     <name>CholeMa</name>
@@ -17,9 +17,144 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MACOS 上硬盘加载失败</title>
+    <link href="https://cholema.what/2024/07/09/MACOS%E7%A1%AC%E7%9B%98%E5%8A%A0%E8%BD%BD%E4%B8%8D%E5%87%BA%E6%9D%A5/"/>
+    <id>https://cholema.what/2024/07/09/MACOS%E7%A1%AC%E7%9B%98%E5%8A%A0%E8%BD%BD%E4%B8%8D%E5%87%BA%E6%9D%A5/</id>
+    <published>2024-07-09T07:43:46.719Z</published>
+    <updated>2024-07-20T14:03:12.147Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="问题：-MACOS上硬盘加载失败"><a href="#问题：-MACOS上硬盘加载失败" class="headerlink" title="问题： MACOS上硬盘加载失败"></a>问题： MACOS上硬盘加载失败</h1><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>终端输入以下命令</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">diskutil list</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;问题：-MACOS上硬盘加载失败&quot;&gt;&lt;a href=&quot;#问题：-MACOS上硬盘加载失败&quot; class=&quot;headerlink&quot; title=&quot;问题： MACOS上硬盘加载失败&quot;&gt;&lt;/a&gt;问题： MACOS上硬盘加载失败&lt;/h1&gt;&lt;h2 id=&quot;解决方案&quot;&gt;&lt;a </summary>
+      
+    
+    
+    
+    <category term="debug" scheme="https://cholema.what/categories/debug/"/>
+    
+    
+    <category term="MACOS" scheme="https://cholema.what/tags/MACOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工具网站</title>
+    <link href="https://cholema.what/2024/07/09/%E5%B7%A5%E5%85%B7%E7%BD%91%E7%AB%99/"/>
+    <id>https://cholema.what/2024/07/09/%E5%B7%A5%E5%85%B7%E7%BD%91%E7%AB%99/</id>
+    <published>2024-07-09T07:42:28.050Z</published>
+    <updated>2024-07-20T14:03:14.835Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="开源大模型"><a href="#开源大模型" class="headerlink" title="开源大模型"></a>开源大模型</h1><h2 id="智谱清言，清华GLM技术转化的公司-api"><a href="#智谱清言，清华GLM技术转化的公司-api" class="headerlink" title="智谱清言，清华GLM技术转化的公司 api"></a>智谱清言，清华GLM技术转化的公司 api</h2><p>– glm3-6b （未取得资格 API KEY？？）</p><p><a href="https://github.com/zhipuai/zhipuai-sdk-python">https://github.com/zhipuai/zhipuai-sdk-python</a></p><p>– glm4<br>处理文本数据很好</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;开源大模型&quot;&gt;&lt;a href=&quot;#开源大模型&quot; class=&quot;headerlink&quot; title=&quot;开源大模型&quot;&gt;&lt;/a&gt;开源大模型&lt;/h1&gt;&lt;h2 id=&quot;智谱清言，清华GLM技术转化的公司-api&quot;&gt;&lt;a href=&quot;#智谱清言，清华GLM技术转化的公司-ap</summary>
+      
+    
+    
+    
+    <category term="辅助" scheme="https://cholema.what/categories/%E8%BE%85%E5%8A%A9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>817论文分享会--Speculative Decoding，Numerical CQA</title>
+    <link href="https://cholema.what/2024/06/28/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%8A%A0%E9%80%9F%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <id>https://cholema.what/2024/06/28/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%8A%A0%E9%80%9F%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</id>
+    <published>2024-06-27T16:00:00.000Z</published>
+    <updated>2024-07-20T13:48:51.151Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="大模型训练推理加速任务前沿技术–Speculative-Decoding-同学：张君"><a href="#大模型训练推理加速任务前沿技术–Speculative-Decoding-同学：张君" class="headerlink" title="大模型训练推理加速任务前沿技术–Speculative Decoding 同学：张君"></a>大模型训练推理加速任务前沿技术–Speculative Decoding 同学：张君</h1><h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><h3 id="投机解码技术"><a href="#投机解码技术" class="headerlink" title="投机解码技术"></a>投机解码技术</h3><p>小模型（draft model）自回归采样连续生成&#x2F;gamma个token，跟原本query拼合输入到大模型（query model）进行验证</p><p>加速核心思想：大问题分为子问题（直接用大模型 vs 使用n个小模型输出输入到大模型）</p><p>效果：准确率不会掉</p><p>优化方向：提高加速比&#x3D;大小模型对齐程度<br>一次投机采样时间：小模型forward一次*个数+大模型验证时间</p><h2 id="优化方案：如何提高加速比"><a href="#优化方案：如何提高加速比" class="headerlink" title="优化方案：如何提高加速比"></a>优化方案：如何提高加速比</h2><p>1、2互斥，3能跟1或2结合</p><h3 id="知识蒸馏"><a href="#知识蒸馏" class="headerlink" title="知识蒸馏"></a>知识蒸馏</h3><h3 id="属性解码"><a href="#属性解码" class="headerlink" title="属性解码"></a>属性解码</h3><h3 id="添加新预测头"><a href="#添加新预测头" class="headerlink" title="添加新预测头"></a>添加新预测头</h3><p>Medusa头～小的神经网络节点？</p><h1 id="知识图谱树脂多跳–Nemerical-CQA-同学：张文泰"><a href="#知识图谱树脂多跳–Nemerical-CQA-同学：张文泰" class="headerlink" title="知识图谱树脂多跳–Nemerical CQA 同学：张文泰"></a>知识图谱树脂多跳–Nemerical CQA 同学：张文泰</h1><h2 id="前置知识-1"><a href="#前置知识-1" class="headerlink" title="前置知识"></a>前置知识</h2><h3 id="复杂查询问答（离散数学知识…）"><a href="#复杂查询问答（离散数学知识…）" class="headerlink" title="复杂查询问答（离散数学知识…）"></a>复杂查询问答（离散数学知识…）</h3><p>缺陷：无数值比较及数值属性值查询</p><h2 id="Numerical-CQA"><a href="#Numerical-CQA" class="headerlink" title="Numerical CQA"></a>Numerical CQA</h2><p>实体和数值交替编码到单独编码结构<br>相比CQA多了数值类型和数值属性值的集合</p><h2 id="模型NRN"><a href="#模型NRN" class="headerlink" title="模型NRN"></a>模型NRN</h2><h3 id="阶段一：实体编码阶段（几年前方法）"><a href="#阶段一：实体编码阶段（几年前方法）" class="headerlink" title="阶段一：实体编码阶段（几年前方法）"></a>阶段一：实体编码阶段（几年前方法）</h3><h3 id="阶段二：数字编码阶段"><a href="#阶段二：数字编码阶段" class="headerlink" title="阶段二：数字编码阶段"></a>阶段二：数字编码阶段</h3><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><h2 id="投机解码"><a href="#投机解码" class="headerlink" title="投机解码"></a>投机解码</h2><h3 id="q-x’-lt-x3D-p-x’-意味着什么"><a href="#q-x’-lt-x3D-p-x’-意味着什么" class="headerlink" title="q(x’)&lt;&#x3D; p(x’)意味着什么"></a>q(x’)&lt;&#x3D; p(x’)意味着什么</h3><p>x’对应的小模型概率&lt;&#x3D;大模型概率</p><p>大模型中<br>思考：工作跟渗透性高血压预测其中涉及到数值计算，数值比较问题和大模型的性能对比<br>大数据推理在什么场景下能发挥作用，复杂推理的复杂性在哪，找比较优势</p><p>idea启发<br>大模型对于</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;大模型训练推理加速任务前沿技术–Speculative-Decoding-同学：张君&quot;&gt;&lt;a href=&quot;#大模型训练推理加速任务前沿技术–Speculative-Decoding-同学：张君&quot; class=&quot;headerlink&quot; title=&quot;大模型训练推理加</summary>
+      
+    
+    
+    
+    <category term="知识图谱课程" scheme="https://cholema.what/categories/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="论文分享会,大模型训练推理加速，知识图谱" scheme="https://cholema.what/tags/%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A-%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%EF%BC%8C%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>金融大模型论坛总结</title>
+    <link href="https://cholema.what/2022/11/17/%E8%AE%BA%E5%9D%9B/"/>
+    <id>https://cholema.what/2022/11/17/%E8%AE%BA%E5%9D%9B/</id>
+    <published>2022-11-17T14:38:42.000Z</published>
+    <updated>2024-07-20T14:03:17.288Z</updated>
+    
+    <content type="html"><![CDATA[<p>金融智能化革命：大模型背后的业务洞察和逻辑推理</p><p>金融大模型特点</p><p>金融恒业大模型：业务理解 逻辑推理</p><p><strong>通用大语言模型对金融行业缺点</strong><br>解决垂类领域问题<br>相关领域知识匮乏，存在超出便捷的问题<br>垂直领域大模型<br>私域数据进行训练或微调</p><p>针对具体场景，利用对业务的理解，</p><p>技术储备： 长期应用及落地判别式，生成式NLP，CV图像<br>TB级  </p><ul><li>金融图谱</li><li>用户对话</li><li>金融用户行为<br>百G</li><li>高频用户问答</li><li>金融行业问答</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;金融智能化革命：大模型背后的业务洞察和逻辑推理&lt;/p&gt;
+&lt;p&gt;金融大模型特点&lt;/p&gt;
+&lt;p&gt;金融恒业大模型：业务理解 逻辑推理&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通用大语言模型对金融行业缺点&lt;/strong&gt;&lt;br&gt;解决垂类领域问题&lt;br&gt;相关领域知识匮乏，存在超出便捷的问题&lt;</summary>
+      
+    
+    
+    
+    <category term="知识图谱课程" scheme="https://cholema.what/categories/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="论坛" scheme="https://cholema.what/tags/%E8%AE%BA%E5%9D%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python語言實現文件格式轉換</title>
+    <link href="https://cholema.what/2022/10/19/python%E8%AA%9E%E8%A8%80%E5%AF%A6%E7%8F%BE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E8%BD%89%E6%8F%9B/"/>
+    <id>https://cholema.what/2022/10/19/python%E8%AA%9E%E8%A8%80%E5%AF%A6%E7%8F%BE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E8%BD%89%E6%8F%9B/</id>
+    <published>2022-10-19T08:56:06.835Z</published>
+    <updated>2024-07-20T14:03:09.139Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>docker下载cassaddra</title>
+    <link href="https://cholema.what/2022/10/19/docker-cassadra/"/>
+    <id>https://cholema.what/2022/10/19/docker-cassadra/</id>
+    <published>2022-10-19T08:56:06.835Z</published>
+    <updated>2024-07-21T06:51:39.257Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ol><li>拉取镜像</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker pull cassandra:latest</span><br></pre></td></tr></table></figure><p><img src="./cassadra/pull.png" alt=""></p><ol><li>创建网络</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker network create cassandra</span><br></pre></td></tr></table></figure><p>此处获取网络编号 ：76ca96758205d4481bc36ba4eb3a2665c0856ac8e9cc7ec2a321ba011b739041</p><ol><li>启动容器</li></ol><figure class="highlight docker"><table><tr><td class="code"><pre><span class="line">docker <span class="keyword">run</span><span class="language-bash"> --name cassandra -d -p 9042:9042 -v /Users/cassandra/conf/cassandra.yaml:/etc/cassandra/cassandra.yaml -v /Users/cassandra/data:/var/lib/cassandra --hostname cassandra --network cassandra cassandra</span></span><br></pre></td></tr></table></figure><p>docker run —name cassandra1 -d -p 9042:9042  -v /Users/cassandra/data:/var/lib/cassandra —hostname cassandra —network cassandra cassandra</p><p>docker run —name cassandra -p 9042:9042 -v /Users/cassandra/conf/cassandra.yaml:/etc/cassandra/cassandra.yaml -v /Users/cassandra/data:/var/lib/cassandra -d —restart=always </p><ul><li>—name（容器名字）</li><li>-d 守护进程，后台运行该容器</li><li>-p（端口） 主机(宿主)端口:容器端口</li><li>-v （目录映射）主机(宿主)配置地址:容器配置地址<br>例如：yaml</li><li>—network网络</li><li>–restart 是否重启  always<h3 id="进入容器"><a href="#进入容器" class="headerlink" title="进入容器"></a>进入容器</h3></li></ul><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker run -it --network cassandra  --<span class="built_in">rm</span> cassandra cqlsh cassandra</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker <span class="built_in">cp</span> /Users/yutaima/Desktop/exp4cassandra/2023-cassandra实践工具软件及测试数据 cassandra:/etc/cassandra</span><br></pre></td></tr></table></figure><p><img src="./cassadra/run.png" alt="启动后自己蹦出来一个？"></p><p><img src="./cassadra/terminal.png" alt="终端界面"></p><p>Connection error: (‘Unable to connect to any servers’, {‘172.18.0.2:9042’: ConnectionRefusedError(111, “Tried connecting to [(‘172.18.0.2’, 9042)]. Last error: Connection refused”)})</p><p>docker exec -it cassandra bash</p><p>docker exec -it cassandra cqlsh</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;步骤&quot;&gt;&lt;a href=&quot;#步骤&quot; class=&quot;headerlink&quot; title=&quot;步骤&quot;&gt;&lt;/a&gt;步骤&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;拉取镜像&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://cholema.what/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/10/16/hello-world/"/>
-    <id>http://example.com/2022/10/16/hello-world/</id>
+    <link href="https://cholema.what/2022/10/16/hello-world/"/>
+    <id>https://cholema.what/2022/10/16/hello-world/</id>
     <published>2022-10-16T07:20:59.190Z</published>
     <updated>2022-10-16T07:20:59.191Z</updated>
     
