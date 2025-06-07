@@ -157,8 +157,8 @@
 </li>
 <li>评估benchmark<h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1 引言"></a>1 引言</h2>单用LLM在指定领域或知识丰富的任务进行检索有着很大的限制—幻觉（疑问2:幻觉具体是啥），于是有了RAG，通过在外部知识库搜索相关的文件块（外部支援）。将RAG与LLM结合产生了极为广泛的应用，尤其在提升chatbot和增强LLM在真实世界应用的匹配度。</li>
 </ul>
-<p>本文梳理了RAG分别在微调，与训练，推理三阶段，自2020年到2024年的发展，<br><img src="截屏2024-09-04 17.49.05.png" alt="RAG技术树"></p>
-<h2 id="2-RAG概览"><a href="#2-RAG概览" class="headerlink" title="2 RAG概览"></a>2 RAG概览</h2><h3 id="RAG应用流程"><a href="#RAG应用流程" class="headerlink" title="RAG应用流程"></a>RAG应用流程</h3><p><img src="截屏2024-09-04 18.16.52.png" alt="alt text"><br>应用于问答的RAG过程的3个常规主要步骤</p>
+<p>本文梳理了RAG分别在微调，与训练，推理三阶段，自2020年到2024年的发展，<br><img src="/2024/09/03/Survey/截屏2024-09-04 17.49.05.png" alt="RAG技术树"></p>
+<h2 id="2-RAG概览"><a href="#2-RAG概览" class="headerlink" title="2 RAG概览"></a>2 RAG概览</h2><h3 id="RAG应用流程"><a href="#RAG应用流程" class="headerlink" title="RAG应用流程"></a>RAG应用流程</h3><p><img src="/2024/09/03/Survey/截屏2024-09-04 18.16.52.png" alt="alt text"><br>应用于问答的RAG过程的3个常规主要步骤</p>
 <ol>
 <li>Indexing<br>从清理和提取PDF、HTML、Word和Markdown等不同格式的原始数据开始，然后将其转换为统一的纯文本格式。为了适应语言模型的上下文限制，文本被分割成较小的、可理解的块。然后，使用嵌入模型将块编码为矢量表示，并存储在矢量数据库中。该步骤对于在后续检索阶段中实现高效的相似性搜索是至关重要的。</li>
 <li>Retrieval<br>在接收到用户查询时，RAG系统采用与在索引阶段期间所利用的编码模型相同的编码模型来将查询变换成向量表示。然后，它计算查询向量和索引语料库内的块向量之间的相似性得分。该系统优先化并检索证明与查询最大相似性的前K个块。这些块随后将用作提示中的扩展上下文。</li>

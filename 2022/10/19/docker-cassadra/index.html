@@ -144,7 +144,7 @@
 <li>拉取镜像</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker pull cassandra:latest</span><br></pre></td></tr></table></figure>
-<p><img src="./cassadra/pull.png" alt=""></p>
+<p><img src="/2022/10/19/docker-cassadra/pull.png" alt></p>
 <ol>
 <li>创建网络</li>
 </ol>
@@ -165,8 +165,8 @@
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker run -it --network cassandra  --<span class="built_in">rm</span> cassandra cqlsh cassandra</span><br></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker <span class="built_in">cp</span> /Users/yutaima/Desktop/exp4cassandra/2023-cassandra实践工具软件及测试数据 cassandra:/etc/cassandra</span><br></pre></td></tr></table></figure>
-<p><img src="./cassadra/run.png" alt="启动后自己蹦出来一个？"></p>
-<p><img src="./cassadra/terminal.png" alt="终端界面"></p>
+<p><img src="/2022/10/19/docker-cassadra/run.png" alt="启动后自己蹦出来一个？"></p>
+<p><img src="/2022/10/19/docker-cassadra/terminal.png" alt="终端界面"></p>
 <p>Connection error: (‘Unable to connect to any servers’, {‘172.18.0.2:9042’: ConnectionRefusedError(111, “Tried connecting to [(‘172.18.0.2’, 9042)]. Last error: Connection refused”)})</p>
 <p>docker exec -it cassandra bash</p>
 <p>docker exec -it cassandra cqlsh</p>
