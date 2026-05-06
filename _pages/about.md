@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /
 title: ""
 excerpt: ""
@@ -32,21 +33,21 @@ My research interest includes multi-modal large language models (MLLMs) reasonin
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/themis_poster.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src="{{ '/images/themis_poster.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensic](https://openreview.net/attachment?id=y3UkklvoW9&name=pdf)
 
 **Tzu-Yen Ma\***, Bo Zhang\*, Zichen Tang, Junpeng Ding, Haolin Tian, Yuanze Li, Zhuodi Hao, Zixin Ding, Zirui Wang, Xinyu Yu, Shiyao Peng, Yizhuo Zhao, Ruomeng Jiang, Yiling Huang, Peizhi Zhao, Jiayuan Chen, Weisheng Tan, Haocheng Gao, Yang Liu, Jiacheng Liu, Zhongjun Yang, Jiayu Huang, Haihong E
 
-[**Home page**](https://github.com/BUPT-Reasoning-Lab/THEMIS)
+[**Home page**](https://bupt-reasoning-lab.github.io/THEMIS/#)
 [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=jc4VYzMAAAAJ&citation_for_view=jc4VYzMAAAAJ:d1gkVwhDpl0C) <strong><span class='show_paper_citations' data='jc4VYzMAAAAJ:d1gkVwhDpl0C'></span></strong>
 
 -  We present THEMIS, a holistic multi-task benchmark of over 4000 questions derived from authentic retracted-paper cases and realistically simulated synthetic data, to systematically evaluate the fine-grained visual fraud reasoning abilities of MLLMs. 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/aegis_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src="{{ '/images/aegis_overview.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images](https://openreview.net/pdf?id=RW5pytG5nu)

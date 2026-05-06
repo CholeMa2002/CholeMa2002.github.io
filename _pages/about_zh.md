@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /zh/
 title: ""
 excerpt: ""
@@ -40,7 +41,7 @@ redirect_from:
 # 📝 论文
 {: #-publications }
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/themis_poster.png' alt="THEMIS" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src="{{ '/images/themis_poster.png' | relative_url }}" alt="THEMIS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensic](https://openreview.net/attachment?id=y3UkklvoW9&name=pdf)
@@ -54,7 +55,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/aegis_overview.png' alt="AEGIS" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src="{{ '/images/aegis_overview.png' | relative_url }}" alt="AEGIS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images](https://openreview.net/pdf?id=RW5pytG5nu)
