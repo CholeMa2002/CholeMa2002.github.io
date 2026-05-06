@@ -64,6 +64,12 @@ Bo Zhang\*, **Tzu-Yen Ma\***, Zichen Tang, Junpeng Ding, Zirui Wang, Yizhuo 
 - *2025.4*  National Grand Champion, The 4th "Wutong Cup" Big Data Innovation & Maker Marathon Competition, China Mobile, 2025.04
  <!-- (第四届中国移动“梧桐杯”大数据创新大赛暨大数据创客马拉松大赛 全国总冠军) -->
 
+# 🛠 Skills
+- **Language:** Python, SQL, C
+- **Deep Learning:** PyTorch, HuggingFace Transformers, vLLM
+- **LLM:** Data Cleaning and Pre-processing for Pre-training and SFT、LoRA fine-tuning、prompt engineering
+- **多模态工具:** OpenCV, CLIP, Segment Anything (SAM)
+
 # 💬 Invited Talks
 
 - *2026.4*, AITIME Forum / AITIME 论道, ICLR 2026 预讲会 北京邮电大学 BUPT ReasoningLab专场. \| [\[video\]](https://www.bilibili.com/video/BV12WoTBuETn/?spm_id_from=333.1387.collection.video_card.click) 

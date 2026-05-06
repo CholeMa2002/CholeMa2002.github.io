@@ -14,13 +14,12 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
+[Get My Resume (PDF)]
 <span class='anchor' id='about-me'></span>
-现为北京邮电大学计算机学院硕士研究生（二年级），师从鄂海红教授。
+现为北京邮电大学计算机学院硕士研究生二年级，师从鄂海红教授，位于Reasoning Lab。
 
-研究方向为多模态大语言模型（MLLM）推理与科学论文图像取证。已在国际人工智能顶会发表多篇论文。
-<!-- 如需 Scholar 总引用与徽章，取消下行注释并确保已开启 google-scholar-stats Action -->
-<!-- 累计 <a href='https://scholar.google.com/citations?user=jc4VYzMAAAAJJ'>Google Scholar 引用 <strong><span id='total_cit'>…</span></strong></a>（<a href='https://scholar.google.com/citations?user=jc4VYzMAAAAJJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations badge"></a>）。 -->
+研究方向为多模态大语言模型（MLLM）推理与科学图像伪造取证。已在国际人工智能顶会发表多篇论文。
+ <a href='https://scholar.google.com/citations?user=jc4VYzMAAAAJJ'>Google Scholar 引用累计 <strong><span id='total_cit'>21</span></strong></a>（<a href='https://scholar.google.com/citations?user=jc4VYzMAAAAJJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations badge"></a>）。
 
 # 📖 教育背景
 {: #-educations }
@@ -62,10 +61,20 @@ Bo Zhang\*, **Tzu-Yen Ma\***, Zichen Tang, Junpeng Ding, Zirui Wang, Yizhuo Zhao
 </div>
 </div>
 
-# 🎖 荣誉
+# 🎖 获奖情况
 {: #-honors-and-awards }
-
 - *2025.04* 全国总冠军，第四届「梧桐杯」大数据创新大赛暨创客马拉松，中国移动。
+  - AI生成内容泛滥的内容审核体系下，针对AI生成内容误识别率高、大规模审查易漏检，以及检测技术难落地三大痛点问题，提出了一种基于多模态大模型的内容审查解决方案。
+- *2025.10* 三等奖（全校唯一名额）北京邮电大学港澳台侨研究生奖学金，北京邮电大学。
+  - AI生成内容泛滥的内容审核体系下，针对AI生成内容误识别率高、大规模审查易漏检，以及检测技术难落地三大痛点问题，提出了一种基于多模态大模型的内容审查解决方案。
+
+# 🛠 技术栈
+{: #-skills }
+
+- **编程语言:** Python, SQL, C
+- **深度学习:** PyTorch, HuggingFace Transformers, vLLM
+- **大模型技术:** 预训练/SFT 数据清洗、LoRA微调、提示词工程
+- **多模态工具:** OpenCV, CLIP, Segment Anything (SAM)
 
 # 💬 邀请报告
 {: #-invited-talks }
