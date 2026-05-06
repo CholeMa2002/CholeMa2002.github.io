@@ -14,12 +14,16 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-[Get My Resume (PDF)]
+
+<p><a href="{{ '/files/Tzu-Yen_Ma_CV.pdf' | relative_url }}" download="Tzu-Yen_Ma_CV.pdf">Get My Resume (PDF)</a>（<a href="{{ '/files/Tzu-Yen_Ma_CV.pdf' | relative_url }}" download="Tzu-Yen_Ma_CV.pdf">下载简历 PDF</a>）</p>
+
 <span class='anchor' id='about-me'></span>
 现为北京邮电大学计算机学院硕士研究生二年级，师从鄂海红教授，位于Reasoning Lab。
 
 研究方向为多模态大语言模型（MLLM）推理与科学图像伪造取证。已在国际人工智能顶会发表多篇论文。
  <a href='https://scholar.google.com/citations?user=jc4VYzMAAAAJJ'>Google Scholar 引用累计 <strong><span id='total_cit'>21</span></strong></a>（<a href='https://scholar.google.com/citations?user=jc4VYzMAAAAJJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations badge"></a>）。
+
+
 
 # 📖 教育背景
 {: #-educations }
