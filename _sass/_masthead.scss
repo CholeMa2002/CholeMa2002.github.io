@@ -61,4 +61,20 @@
   }
 }
 
+.masthead__lang-switch {
+  font-size: 0.9em;
+  opacity: 0.92;
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.masthead__lang-sep {
+  display: inline-block;
+  padding: 0 0.2em;
+  opacity: 0.55;
+  user-select: none;
+}
+
 

@@ -1,13 +1,28 @@
+{% assign page_lang = page.lang | default: 'en' %}
+{% if page_lang == 'zh' %}
+  {% assign nav_links = site.data.navigation_zh.main %}
+  {% assign home_href = '/zh/' | relative_url | append: '#about-me' %}
+  {% assign home_label = '主页' %}
+{% else %}
+  {% assign nav_links = site.data.navigation.main %}
+  {% assign home_href = '/' | relative_url | append: '#about-me' %}
+  {% assign home_label = 'Homepage' %}
+{% endif %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_href }}">{{ home_label }}</a></li>
+          {% for link in nav_links %}
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item masthead__lang-switch" aria-label="Language">
+            <a href="{{ '/' | relative_url }}#about-me" hreflang="en">EN</a>
+            <span class="masthead__lang-sep" aria-hidden="true">·</span>
+            <a href="{{ '/zh/' | relative_url }}#about-me" hreflang="zh-Hans">中文</a>
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

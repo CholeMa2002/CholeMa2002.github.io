@@ -1,0 +1,22 @@
+# 中文页导航（与 about_zh.md 中标题 {: #...} 锚点一致）
+main:
+  - title: "简介"
+    url: "/zh/#about-me"
+
+  - title: "动态"
+    url: "/zh/#-news"
+
+  - title: "论文"
+    url: "/zh/#-publications"
+
+  - title: "获奖情况"
+    url: "/zh/#-honors-and-awards"
+
+  - title: "教育经历"
+    url: "/zh/#-educations"
+
+  - title: "邀请报告"
+    url: "/zh/#-invited-talks"
+
+  - title: "实习"
+    url: "/zh/#-internships"
