@@ -14,14 +14,14 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_href }}">{{ home_label }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_href }}" target="_self">{{ home_label }}</a></li>
           {% for link in nav_links %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}" target="_self">{{ link.title }}</a></li>
           {% endfor %}
           <li class="masthead__menu-item masthead__lang-switch" aria-label="Language">
-            <a href="{{ '/' | relative_url }}#about-me" hreflang="en">EN</a>
+            <a href="{{ '/' | relative_url }}#about-me" hreflang="en" target="_self">EN</a>
             <span class="masthead__lang-sep" aria-hidden="true">·</span>
-            <a href="{{ '/zh/' | relative_url }}#about-me" hreflang="zh-Hans">中文</a>
+            <a href="{{ '/zh/' | relative_url }}#about-me" hreflang="zh-Hans" target="_self">中文</a>
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
