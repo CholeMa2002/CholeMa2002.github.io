@@ -3,6 +3,9 @@ main:
   - title: "简介"
     url: "/zh/#about-me"
 
+  - title: "教育"
+    url: "/zh/#-educations"
+
   - title: "动态"
     url: "/zh/#-news"
 
@@ -12,14 +15,12 @@ main:
   - title: "获奖情况"
     url: "/zh/#-honors-and-awards"
 
-  - title: "教育经历"
-    url: "/zh/#-educations"
+  # - title: "实习"
+  #   url: "/zh/#-internships"
+  
+  - title: "技术栈"
+    url: "/zh/#-skills"
 
   - title: "邀请报告"
     url: "/zh/#-invited-talks"
 
-  - title: "实习"
-    url: "/zh/#-internships"
-  
-  - title: "技术栈"
-    url: "/zh/#-skills"

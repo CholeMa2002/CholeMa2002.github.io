@@ -26,20 +26,20 @@ redirect_from:
 
 
 
-# 📖 教育背景
-{: #-educations }
+# 📖 教育经历
+{: /zh/#-educations }
 
 * 北京邮电大学计算机学院，计算机技术，硕士，2024.09–2027.07（预计）
 * 北京邮电大学计算机学院，数据科学与大数据技术，学士，2020.09–2024.07
 
 # 🔥 动态
-{: #-news }
+{: /zh/#-news }
 
 - *2026.04*：🎉 AEGIS：面向 AI 生成学术图像取证的综合评测基准，投稿 ACL 2026（主会）。
 - *2026.01*：🎉 THEMIS：面向科学论文造假取证的多模态大模型综合评测，投稿 ICLR 2026（海报）。
 
 # 📝 论文
-{: #-publications }
+{: /zh/#-publications }
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src="{{ '/images/themis_poster.png' | relative_url }}" alt="THEMIS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -67,14 +67,14 @@ Bo Zhang\*, **Tzu-Yen Ma\***, Zichen Tang, Junpeng Ding, Zirui Wang, Yizhuo Zhao
 </div>
 
 # 🎖 获奖情况
-{: #-honors-and-awards }
+{: /zh/#-honors-and-awards }
 - *2025.04* 全国总冠军，第四届「梧桐杯」大数据创新大赛暨创客马拉松，中国移动。
   - AI生成内容泛滥的内容审核体系下，针对AI生成内容误识别率高、大规模审查易漏检，以及检测技术难落地三大痛点问题，提出了一种基于多模态大模型的内容审查解决方案。
 - *2025.10* 三等奖（全校唯一名额）北京邮电大学港澳台侨研究生奖学金，北京邮电大学。
   - AI生成内容泛滥的内容审核体系下，针对AI生成内容误识别率高、大规模审查易漏检，以及检测技术难落地三大痛点问题，提出了一种基于多模态大模型的内容审查解决方案。
 
 # 🛠 技术栈
-{: #-skills }
+{: /zh/#-skills }
 
 - **编程语言:** Python, SQL, C
 - **深度学习:** PyTorch, HuggingFace Transformers, vLLM
@@ -82,8 +82,8 @@ Bo Zhang\*, **Tzu-Yen Ma\***, Zichen Tang, Junpeng Ding, Zirui Wang, Yizhuo Zhao
 - **多模态工具:** OpenCV, CLIP, Segment Anything (SAM)
 
 # 💬 邀请报告
-{: #-invited-talks }
+{: /zh/#-invited-talks }
 
 - *2026.04*，AITIME 论道 · ICLR 2026 预讲会，北京邮电大学 BUPT ReasoningLab 专场。 \| [\[video\]](https://www.bilibili.com/video/BV12WoTBuETn/?spm_id_from=333.1387.collection.video_card.click)
 
-<!-- # 💻 实习 {: #-internships } -->
+<!-- # 💻 实习 {: /zh/#-internships } -->
